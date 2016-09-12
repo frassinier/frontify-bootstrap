@@ -1,13 +1,16 @@
-# frontify-connector
+# frontify-bootstrap
 
-Sync patterns with Frontify
+Sync Bootstrap patterns to Frontify
 
 ## Configuration
 
-* Create a `.env` file at root
-* Add `FRONTIFY_API_KEY`
-* Add `FRONTIFY_PROJECT_ID`
+Create a `.env` file at root and fill in with theses variables
 
-## Run
+* `FRONTIFY_API_KEY`
+* `FRONTIFY_PROJECT_ID`
 
-* Run `node index.js`
+## Synchronize
+
+* `git clone https://github.com/frassinier/frontify-bootstrap.git`
+* `npm insall`
+* `node index.js`
