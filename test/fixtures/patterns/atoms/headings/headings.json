@@ -1,0 +1,22 @@
+{
+  "name": "Headings",
+  "description": "<p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>, are available. <code>.h1</code> through <code>.h6</code> classes are also available, for when you want to match the font styling of a heading but still want your text to be displayed inline.</p>",
+  "type": "atom",
+  "stability": "stable",
+  "assets": {
+    "html": [
+      "test/fixtures/patterns/atoms/headings/headings.html"
+    ]
+  },
+  "variations": {
+    "lead": {
+      "name": "Lighter headings",
+      "description": "<p>Create lighter, secondary text in any heading with a generic <code>&lt;small&gt;</code> tag or the <code>.small</code> class.</p>",
+      "assets": {
+        "html": [
+          "test/fixtures/patterns/atoms/headings/lighter_headings.html"
+        ]
+      }
+    }
+  }
+}

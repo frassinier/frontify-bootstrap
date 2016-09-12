@@ -1,0 +1,25 @@
+{
+  "name": "Body copy",
+  "type": "atom",
+  "description": "Bootstrap's global default <code>font-size</code> is applied to the <code>&lt;body&gt;</code> and all paragraphs. In addition, <code>&lt;p&gt;</code> (paragraphs) receive a bottom margin of half their computed line-height.",
+  "stability": "stable",
+  "variations": {
+    "lead": {
+      "name": "Lead body copy",
+      "description": "Make a paragraph stand out by adding <code>.lead</code>.",
+      "assets": {
+        "html": [
+          "test/fixtures/patterns/atoms/paragraph/paragraph_lead.html"
+        ]
+      }
+    }
+  },
+  "assets": {
+    "html": [
+      "test/fixtures/patterns/atoms/paragraph/paragraph.html"
+    ],
+    "scss": [
+      "test/fixtures/patterns/atoms/paragraph/paragraph.scss"
+    ]
+  }
+}
