@@ -1,0 +1,15 @@
+{
+  "name": "frontify-connector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@frontify/frontify-api": "^0.3.0",
+    "dotenv": "^2.0.0"
+  }
+}
