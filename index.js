@@ -1,23 +1,26 @@
-require('dotenv').config();
+const dotenv = require('dotenv');
+const frontifyApi = require('@frontify/frontify-api');
 
-var frontifyApi = require('@frontify/frontify-api');
+dotenv.config();
 
-var config = {
-	access_token: process.env.FRONTIFY_API_KEY,
-  project: process.env.FRONTIFY_PROJECT_ID,
-	// dryRun: true,
+const config = {
+    access_token: process.env.FRONTIFY_API_KEY,
+    project: process.env.FRONTIFY_PROJECT_ID,
+    // dryRun: false,
+    // baseUrl: 'https://app.frontify.com',
 };
 
-var blob = [
-	'test/fixtures/patterns/**/*.json'
+const blob = [
+    'test/fixtures/patterns/**/*.json'
 ];
 
-var promise = frontifyApi.syncPatterns(config, blob)
+frontifyApi
+    .syncPatterns(config, blob)
 
-.then(function(data) {
-  console.log(data);
-})
+    .then(function (data) {
+        console.log(data);
+    })
 
-.catch(function(error) {
-  console.log(error);
-});
+    .catch(function (error) {
+        console.log(error);
+    });

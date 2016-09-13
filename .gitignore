@@ -39,3 +39,5 @@ jspm_packages
 # Dotenv is a zero-dependency module that loads environment variables
 # from a .env file into process.env (https://github.com/motdotla/dotenv)
 .env
+
+.idea
