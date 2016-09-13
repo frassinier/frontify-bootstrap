@@ -13,7 +13,7 @@ Read the [Frontify API](https://docs.frontify.com/d/2MwJ9kHF57Sc/api) documentat
 
 ## Configuration
 
-Create a `.env` file at root and fill in with theses variables
+Create a `.env` file at root and fill in with theses variables:
 
 * `FRONTIFY_API_KEY`
 * `FRONTIFY_PROJECT_ID`
