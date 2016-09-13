@@ -11,15 +11,18 @@ Read the [Frontify API](https://docs.frontify.com/d/2MwJ9kHF57Sc/api) documentat
 ## Installation
 
 * `git clone https://github.com/frassinier/frontify-bootstrap.git`
+* `cd frontify-bootstrap`
 * `npm insall`
 
 ## Configuration
 
 Create a `.env` file at root and fill in with theses variables:
 
-* `FRONTIFY_API_KEY`
-* `FRONTIFY_PROJECT_ID`
+* `FRONTIFY_API_KEY='abc123'`
+* `FRONTIFY_PROJECT_ID=12345`
 
 ## Synchronization
+
+Synchronize your patterns with:
 
 * `node index.js`
