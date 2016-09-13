@@ -2,6 +2,8 @@
 
 Sync Bootstrap patterns to Frontify
 
+[![Build Status](https://travis-ci.org/frassinier/frontify-bootstrap.svg?branch=master)](https://travis-ci.org/frassinier/frontify-bootstrap)
+
 ## Documentation
 
 Read the [Frontify API](https://docs.frontify.com/d/2MwJ9kHF57Sc/api) documentation
