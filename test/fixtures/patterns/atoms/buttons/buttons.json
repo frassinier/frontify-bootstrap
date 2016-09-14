@@ -17,6 +17,15 @@
           "test/fixtures/patterns/atoms/buttons/button_options.html"
         ]
       }
+    },
+    "sizes": {
+      "name": "Sizes",
+      "description": "<p>Fancy larger or smaller buttons? Add <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code> for additional sizes.</p>",
+      "assets": {
+        "html": [
+          "test/fixtures/patterns/atoms/buttons/button_sizes.html"
+        ]
+      }
     }
   }
 }
