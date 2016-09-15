@@ -1,0 +1,49 @@
+{
+  "name": "Button tags",
+  "description": "Use the button classes on an <code>&lt;a&gt;</code>, <code>&lt;button&gt;</code>, or <code>&lt;input&gt;</code> element.",
+  "type": "atom",
+  "stability": "stable",
+  "assets": {
+    "html": [
+      "test/fixtures/patterns/css/buttons/button_tags.html"
+    ]
+  },
+  "variations": {
+    "options": {
+      "name": "Button options",
+      "description": "Use any of the available button classes to quickly create a styled button.",
+      "assets": {
+        "html": [
+          "test/fixtures/patterns/css/buttons/button_options.html"
+        ]
+      }
+    },
+    "sizes": {
+      "name": "Button sizes",
+      "description": "Fancy larger or smaller buttons? Add <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code> for additional sizes.",
+      "assets": {
+        "html": [
+          "test/fixtures/patterns/css/buttons/button_sizes.html"
+        ]
+      }
+    },
+    "active": {
+      "name": "Button active state",
+      "description": "No need to add <code>:active</code> as it's a pseudo-class, but if you need to force the same appearance, go ahead and add <code>.active</code>.",
+      "assets": {
+        "html": [
+          "test/fixtures/patterns/css/buttons/button_active_state.html"
+        ]
+      }
+    },
+    "disabled": {
+      "name": "Button disabled state",
+      "description": "Add the <code>disabled</code> attribute to <code>&lt;button&gt;</code> buttons.",
+      "assets": {
+        "html": [
+          "test/fixtures/patterns/css/buttons/button_disabled_state.html"
+        ]
+      }
+    }
+  }
+}

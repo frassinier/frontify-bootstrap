@@ -1,0 +1,11 @@
+{
+  "name": "Button groups",
+  "description": "Group a series of buttons together on a single line with the button group. Add on optional JavaScript radio and checkbox style behavior with <a href='http://getbootstrap.com/javascript/#buttons'>our buttons plugin</a>.",
+  "type": "atom",
+  "stability": "stable",
+  "assets": {
+    "html": [
+      "test/fixtures/patterns/components/buttonGroups/buttonGroups.html"
+    ]
+  }
+}
