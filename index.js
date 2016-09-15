@@ -1,3 +1,4 @@
+const path = require('path');
 const dotenv = require('dotenv');
 const frontifyApi = require('@frontify/frontify-api');
 
@@ -14,7 +15,7 @@ const options = {
     project: process.env.FRONTIFY_PROJECT_ID,
     // dryRun: false,
     // baseUrl: 'https://app.frontify.com',
-    cwd: './',
+    cwd: path.resolve(__dirname),
     // target: '',
 };
 
