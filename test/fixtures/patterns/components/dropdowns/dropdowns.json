@@ -1,6 +1,6 @@
 {
   "name": "Dropdowns",
-  "description": "Toggleable, contextual menu for displaying lists of links. Made interactive with the <a href="../javascript/#dropdowns">dropdown JavaScript plugin</a>.",
+  "description": "Toggleable, contextual menu for displaying lists of links. Made interactive with the <a href='http://getbootstrap.com/javascript/#dropdowns'>dropdown JavaScript plugin</a>",
   "type": "atom",
   "stability": "stable",
   "assets": {
