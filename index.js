@@ -23,7 +23,7 @@ const options = {
  * @type {[*]}
  */
 const globPattern = [
-    'test/fixtures/patterns/**/*.json'
+    './test/fixtures/patterns/**/*.json'
 ];
 
 frontifyApi
