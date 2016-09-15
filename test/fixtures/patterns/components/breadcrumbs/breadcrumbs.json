@@ -1,0 +1,11 @@
+{
+  "name": "Breadcrumbs",
+  "description": "Indicate the current page's location within a navigational hierarchy.<br>Separators are automatically added in CSS through <code>:before</code> and <code>content</code>.",
+  "type": "atom",
+  "stability": "stable",
+  "assets": {
+    "html": [
+      "test/fixtures/patterns/components/breadcrumbs/breadcrumbs.html"
+    ]
+  }
+}
