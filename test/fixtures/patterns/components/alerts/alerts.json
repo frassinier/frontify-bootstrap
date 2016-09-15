@@ -1,0 +1,11 @@
+{
+  "name": "Alerts",
+  "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.",
+  "type": "atom",
+  "stability": "stable",
+  "assets": {
+    "html": [
+      "test/fixtures/patterns/components/alerts/alerts.html"
+    ]
+  }
+}
