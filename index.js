@@ -14,7 +14,7 @@ const options = {
     project: process.env.FRONTIFY_PROJECT_ID,
     // dryRun: false,
     // baseUrl: 'https://app.frontify.com',
-    // cwd: '',
+    cwd: './',
     // target: '',
 };
 
