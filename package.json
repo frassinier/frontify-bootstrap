@@ -1,13 +1,13 @@
 {
-  "name": "frontify-connector",
+  "name": "frontify-bootstrap",
   "version": "1.0.0",
-  "description": "",
+  "description": "Upload Bootstrap UI patterns to Frontify",
   "main": "index.js",
   "scripts": {
     "build": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Fabien Rassinier",
   "license": "MIT",
   "dependencies": {
     "@frontify/frontify-api": "^0.3.0",
