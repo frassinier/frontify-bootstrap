@@ -30,7 +30,7 @@ Synchronize your patterns with:
 ### As NPM dependency
 
 * Install `npm i -D dotenv frassinier/frontify-bootstrap`
-* Create `.env` file as [above](#configuration)
+* Create _.env_ file as [above](#configuration)
 * Add a NPM scripts entry in your _package.json_ 
 ```
 {
