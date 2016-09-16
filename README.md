@@ -16,7 +16,7 @@ Read the [Frontify API](https://docs.frontify.com/d/2MwJ9kHF57Sc/api) documentat
 
 ## Configuration
 
-Create a `.env` file at root and fill in with theses variables:
+Create a _.env_ file at root and fill in with theses variables:
 
 * `FRONTIFY_API_KEY='abc123'`
 * `FRONTIFY_PROJECT_ID=12345`
@@ -26,3 +26,22 @@ Create a `.env` file at root and fill in with theses variables:
 Synchronize your patterns with:
 
 * `node index.js`
+
+### As NPM dependency
+
+* Install 'npm i -D frassinier/frontify-bootstrap'
+* Create `.env` file as [below](#configuration)
+* Add a NPM scripts entry in your _package.json_ 
+```
+{
+    "name": "your_project_name",
+    "version": "1.0.0",
+    "scripts": {
+      "frontify:bootstrap": "node ./node_modules/frontify-bootstrap/index.js"
+    },
+    "devDependencies": {
+        "dotenv": "^2.0.0",
+        "frontify-bootstrap": "github:frassinier/frontify-bootstrap",
+    },
+}
+```
