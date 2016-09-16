@@ -32,7 +32,7 @@ Synchronize your patterns with:
 * Install `npm i -D dotenv frassinier/frontify-bootstrap`
 * Create _.env_ file as [above](#configuration)
 * Add a NPM scripts entry in your _package.json_ 
-```
+```json
 {
     "name": "your_project_name",
     "version": "1.0.0",
@@ -41,7 +41,7 @@ Synchronize your patterns with:
     },
     "devDependencies": {
         "dotenv": "^2.0.0",
-        "frontify-bootstrap": "github:frassinier/frontify-bootstrap",
+        "frontify-bootstrap": "github:frassinier/frontify-bootstrap"
     },
 }
 ```
