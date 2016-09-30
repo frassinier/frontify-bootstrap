@@ -1,0 +1,11 @@
+{
+  "name": "Navbars",
+  "description": "Navbars are responsive meta components that serve as navigation headers for your application or site. They begin collapsed (and are toggleable) in mobile views and become horizontal as the available viewport width increases.",
+  "type": "atom",
+  "stability": "stable",
+  "assets": {
+    "html": [
+      "test/fixtures/patterns/components/navbars/navbars.html"
+    ]
+  }
+}
